@@ -1,0 +1,189 @@
+
+:root{
+    --bs-primary--:#cf9b67;
+}
+.ctitle{
+    font-family: "Oswald";
+    font-size: 50px;
+    font-weight: 900;
+    text-shadow: 0px 0px 10px black;
+
+}
+.csubtitle{
+ font-size: 35px;
+ text-shadow: 0px 0px 5px black;
+}
+
+
+.subtitle{
+    font-family: "Architects Daughter";
+    font-size: 30px;
+    color: var(--bs-primary--);
+}
+.title{
+    font-family: "Oswald";
+    font-size: 35px;
+    font-weight: 900;
+}
+.theme{
+    color: var(--bs-primary--);
+   font-size:20px;
+   font-weight: 500;
+}
+.btn{
+    border:1px solid var(--bs-primary--);
+    background-color: white;
+    color:var(--bs-primary--);
+}
+
+/* navbar */
+.navbar-scrolled{
+    background-color:#cf9b67 ;
+    color: black;
+    
+  }
+ .carousel-inner {
+    height: 300px;
+    
+}
+
+.carousel-caption {
+    bottom: 200px;
+    padding: 0px 100px;
+    line-height: 40px;
+}
+
+.contactform{
+    background-color: black;
+    padding:50px 30px;
+    line-height: 80px;
+}
+.nav-pills .nav-link {
+    
+    color: black;
+}
+.nav-pills .nav-link.active {
+    color:white;
+    background-color:var(--bs-primary--);
+    margin:0px 20px;
+}
+#feedback{
+
+    padding:100px 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.594),rgba(0, 0, 0, 0.607),rgba(0, 0, 0, 0.607)),url(../images/Iullstration/food122.jpg);
+    
+}
+
+.fa-quote-left,.fa-quote-right,.fa-twitter,.fa-facebook-f,.fa-instagram-square{
+    color: var(--bs-primary--);
+    font-size: 20px;
+}
+#counter{
+    background: linear-gradient(rgba(0, 0, 0, 0.594),rgba(0, 0, 0, 0.607),rgba(0, 0, 0, 0.607)),url(../images/background/food134.jpg);
+    padding: 100px;
+}
+
+.number-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 26px;
+    border: 2px solid #f1eeee;
+    text-align: center;
+    font: 40px ;
+    position: relative;
+    left:12px
+}
+.contact{
+    background-color: #e3d6d6;
+}
+#newsletter{
+    background-color: var(--bs-primary--);
+    padding: 80px;
+}
+#footer{
+    background-color:black;
+    color:rgba(240, 255, 255, 0.525);
+    
+}
+
+#form,#dish,#menu,#feedback,#event,#team,#counter,#contact,#newsletter,#footer{
+    margin-top: 50px;
+
+}
+ul{
+    list-style-type: none;
+}
+@media only screen and (min-width:375px){
+    .number-circle{
+        left:41px;
+    }
+}
+@media only screen and (min-width:425px){
+    .number-circle{
+        left:65px;
+    }
+}
+
+@media only screen and (min-width:768px){
+
+    .carousel-inner {
+        height: 560px;
+    
+    }
+    
+    
+   
+    #form{
+        background-image: url(../images/background/food108.jpg);
+        width:100%;
+    }
+    .contactform{
+        background-color: black;
+        padding:50px 30px;
+        margin-left: 80px;
+        line-height: 80px;
+    }
+    .number-circle{
+        left:4px;
+    }
+
+#offer,#form,#dish,#menu,#feedback,#event,#team,#counter,#contact,#newsletter,#footer{
+    margin-top: 70px;
+
+}
+
+}
+@media only screen and (min-width:1024px){
+    .number-circle{
+        left:45px;
+    }
+}
+
+@media only screen and (min-width:1200px){
+
+    .carousel-caption {
+        bottom: 420px;
+        padding: 0px 100px;
+        line-height: 40px;
+    }
+    .ctitle{
+        
+        font-size: 70px;
+        
+    
+    }
+    
+    .number-circle{
+        left:80px;
+    }
+
+}
+
+@media only screen and (min-width:1440px){
+
+    .carousel-caption {
+        bottom: 536px;
+       
+    }
+}
